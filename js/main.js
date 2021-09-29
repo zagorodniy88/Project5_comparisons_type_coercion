@@ -5,9 +5,9 @@ document.write(typeof text + '<br>');
 document.write(typeof bool + '<br>');
 
 let a = '10' + 5;
-document.write(a + '<br>');
+document.write(typeof a + '<br>');
 
-if(text == String || num >= 100 ){
+if(text == String || num >= 100 && bool === true && typeof a != Number && num < 100){
     document.write('JS the best');
 }else{
     document.write('Something went wrong');
